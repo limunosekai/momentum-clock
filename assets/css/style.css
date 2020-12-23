@@ -1,0 +1,22 @@
+html {
+}
+
+body {
+}
+
+.js-clock {
+}
+
+.js-title {
+  color: darkmagenta;
+  font-size: 3rem;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
