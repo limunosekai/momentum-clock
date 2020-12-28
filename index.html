@@ -9,19 +9,23 @@
   <script src="assets/js/greeting.js" defer></script>
   <script src="assets/js/todo.js" defer></script>
   <script src="assets/js/bg.js" defer></script>
+  <script src="assets/js/weather.js" defer></script>
 </head>
 <body>
-  <div class="js-clock">
-    <h1 class="js-title">00:00</h1>
+  <div class="wrapper">
+    <span class="js-weather"></span>
+    <div class="js-clock">
+      <h1 class="js-title">00:00</h1>
+    </div>
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?">
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="write a to do" />
+      <ul class="js-toDoList">
+      </ul>
+    </form>
   </div>
-  <form class="js-form form">
-    <input type="text" placeholder="What is your name?">
-  </form>
-  <h4 class="js-greetings greetings"></h4>
-  <form class="js-toDoForm">
-    <input type="text" placeholder="write a to do" />
-    <ul class="js-toDoList">
-    </ul>
-  </form>
 </body>
 </html>
